@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap - First  - External</title>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script> <!-- navbar açılırbutonlar da gerekli*/ --> 
+
+
+
+</head>
+<body>
+    
+
+<div class="container">
+ <form action="#">
+ 
+    <div class="form-group">
+           <label for="name"> İsim</label>
+           <input type="text" name="name" id="name" class="form-control"> 
+
+
+    </div>
+
+
+    <div class="form-group">
+        <label for="email">e-Posta</label>
+        <input type="email" name="email" id="email" class="form-control">
+        <small class="form-text text-danger">Lütfen E-Posta Adresi Giriniz! </small>
+    </div>
+
+    <div class="form-group mb-3">
+        <label for="bolum">Bölüm</label>
+        <select name="edu-program" id="edu-program" class="form-control">
+            <option selected disabled> Aşağıdan bölüm seçiniz</option>
+            <option > ERP </option>
+            <option>Siber G</option>
+            <option>Ağ </option>
+        </select>
+
+    </div>
+
+    <div class="form-group mb-3">  
+    <div class="input-group">
+        <span class="input-group-text">Mesajınız</span>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
+      </div>
+    </div>
+
+    <button type="button" class="btn btn-primary"> Gönder</button>
+
+ </form>
+
+
+</div>
+
+
+
+
+
+
+
+    
+</body>
+</html>
